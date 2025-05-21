@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fff0f0;
+  color: #333;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 97px;
+  height: 62px;
+}
+
+.menu-icon {
+  width: 36px;
+  height: 27px;
+}
+
+.heartshape{
+  margin: 5px;
+}
+.trust-us{
+  margin : 5px  ;
+}
+
+.trust-badge {
+  margin: 64px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  background: #fcdcdc;
+  display: flex;
+  border-radius: 20px;
+  font-size: 14px;
+  width: 139px;
+  height: 28px;
+  align-content: center;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+
+.highlight-red {
+  color: #e63946;
+}
+
+.highlight-yellow {
+  color: #f4c430;
+}
+
+.hero-text .underline {
+  width: 263px;
+  margin: 10px 0;
+}
+
+
+.hero-text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #555;
+  margin-top: 15px;
+}
+
+.search-bar {
+  display: flex;
+  margin-top: 32px;
+  background: white;
+  border-radius: 30px;
+  border: 0.5px solid #191919;
+  overflow: hidden;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  padding: 12px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.serachicon2 {
+  width: 42px;
+  height: 42px;
+  margin: 5px;
+}
+.serachicon1 {
+  width: 24px;
+  height: 24px;
+  margin: 15px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.download-btn {
+  background: #e63946;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 18px;
+  width: 162px;
+  height: 45px;
+}
+
+.video-btn {
+  color: #555;
+  font-weight: 500;
+  font-size: 17px;
+}
+.actions img{
+  margin-top: 25px;
+}
