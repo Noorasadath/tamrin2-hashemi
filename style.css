@@ -294,14 +294,11 @@ body {
   display: block;
 }
 
-.chef-image {
-  position: absolute;
-  bottom: 368px;
-  left: 40px;
-  width: 248px;
-  height: 124px;
-  border-top-left-radius: 124px;
-  border-top-right-radius: 124px;
+.chef-image-circle {
+  width: 383px;
+  height: 191px;
+  border-top-left-radius: 191px;
+  border-top-right-radius: 191px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   background: radial-gradient(circle at top, #FDC55E , #ff9f9f, #fff);
@@ -309,16 +306,107 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-}
 
-.chef-img {
-  width: 198px;
-  height: 198px;
+ }
+  .thirdsection{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+   align-items: center;
+
+  }
+  .food-relative{
+      position: relative;
+  }
+
+.chef-food-img {
+  width: 331px;
+  height: 331px;
   object-fit: cover;
   border: 10px solid white;
   border-radius: 50%;
-  display: block;
 }
+.chef-img {
+  position: absolute;
+  width: 330px;
+  height: 410px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.barg2,
+.light,
+.dooneh{
+  position: absolute;
+ }
+ .light{
+  top: -10px;
+  left:-50px;
+ }
+ .dooneh{
+  top: 10px;
+  right:-20px;
+ }
+ .barg2{
+  bottom: -45px;
+  left:5px;
+ }
+
+ .thirdsec-text{
+  margin-top: 250px;
+ margin-left:  24px;
+ margin-right:  24px;
+  padding: 20px;
+ }
+ .thirdsec-text h1 {
+  font-size: 3rem;
+    margin-bottom: 0;
+    font-family: "SofiaPro";
+}
+
+.thirdsec-text p {
+  font-size: 1.2rem;
+  color: #000000;
+  font-family: "SofiaPro";
+  margin-top: 29px;
+  margin-bottom: 0;
+}
+
+.options-section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 82px;
+}
+.option{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.option img{
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+}
+.option h6{
+  font-size: 18px;
+  font-family: "SofiaPro";
+  margin: 20px 10px;
+}
+.aboutus-btn {
+  width: 131px;
+  height: 45px;
+  margin-top: 44px;
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 12px 0;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: "SofiaPro";
 
 
 
@@ -385,7 +473,7 @@ body {
     .food-card-wrapper {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
       margin: 0 75px;
       gap: 18px;
          }
