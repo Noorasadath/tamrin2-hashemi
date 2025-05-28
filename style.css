@@ -56,7 +56,7 @@ body {
   display: flex;
   border-radius: 20px;
   font-size: 14px;
-  width: 21%;
+  width: 149px;
   height: 28px;
   align-content: center;
 }
@@ -422,25 +422,29 @@ body {
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
-  padding: 10px 0;
   gap: 12px;
+  padding: 10px;
   scrollbar-width: none; /* Firefox */
-     }
-     .wrap-menu::-webkit-scrollbar {
-  display: none; /* Chrome, Safari */
-    }
+}
+.wrap-menu::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
 
-  .wrap-menu-opt {
-      flex: 0 0 auto;
-      min-width: 100px;
-      padding: 10px 20px;
-      font-size: 1rem;
-      background: #ffffff;
-      border: 2px solid black;
-      color: #000;
-      border-radius: 20px;
-      font-family: "SofiaPro";
-    }
+.wrap-menu-opt {
+  flex: 0 0 25%; /* یعنی هر دکمه یک‌چهارم عرض، دقیقاً ۴تا تو موبایل جا می‌گیره */
+  min-width: 25%;
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 20px;
+  white-space: nowrap;
+  font-size: 1rem;
+  color: #000;
+  font-family: "SofiaPro";
+}
+ 
+
     .forthsection{
       display: flex;
       flex-direction: column;
@@ -657,13 +661,16 @@ body {
         #forsec-text{
           padding: 0 394px;
         }
-        .wrap-menu{
-          gap: 30px;
-        }
-        .wrapper-two{
-          display: flex;
-          margin-top: 66px;
-        }
+        .wrap-menu {
+         overflow-x: visible;
+        flex-wrap: wrap; 
+        justify-content: center;
+         gap: 30px;
+         }
+         .wrap-menu-opt {
+         flex: 0 0 auto; 
+         min-width: auto;
+         }
         .fifthsection{
           display: flex;
           flex-direction: row-reverse;
