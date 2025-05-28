@@ -495,7 +495,7 @@ body {
       display: flex;
       flex-direction: row;
       margin-top: 30px;
-        gap: 80px;
+      gap: 80px;
       white-space: nowrap;
     }
     .partsec{
@@ -664,6 +664,9 @@ body {
         }
         #forsec-text{
           padding: 0 394px;
+        }
+        .wrapper-two{
+          display: block;
         }
         .wrap-menu {
          overflow-x: visible;
