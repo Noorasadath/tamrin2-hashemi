@@ -495,9 +495,8 @@ body {
       display: flex;
       flex-direction: row;
       margin-top: 30px;
-      margin-left: 20px;
-      gap: 80px;
-      flex: 0 0 auto;
+        gap: 80px;
+      white-space: nowrap;
     }
     .partsec{
       display: flex;
@@ -529,10 +528,11 @@ body {
        width: 40%;
         color: white;
         border: none;
-        padding: 12px 0;
+        padding: 12px 20px;
         border-radius: 30px;
         font-size: 18px;
         font-family: "SofiaPro";
+         
     }
     .buttons{
       display: flex;
