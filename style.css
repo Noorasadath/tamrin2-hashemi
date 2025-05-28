@@ -694,5 +694,8 @@ body {
            align-items: center;
            gap: 90px;
        }
+       .com-abt{
+        flex: 0 0 auto;
+    }
 
 }
