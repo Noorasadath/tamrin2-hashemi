@@ -336,6 +336,9 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+.chef2{
+  display: none;
+}
 
 .barg2,
 .light,
@@ -396,7 +399,7 @@ body {
   font-family: "SofiaPro";
   margin: 20px 10px;
 }
-.aboutus-btn {
+.aboutus-btn1 {
   width: 131px;
   height: 45px;
   margin-top: 44px;
@@ -408,7 +411,77 @@ body {
   font-size: 18px;
   font-family: "SofiaPro";
   }
-
+  .aboutus-btn2{
+    display: none;
+  }
+  .chef2{
+    display: none;
+  }
+  .wrap-menu{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 8px;
+    scrollbar-width: none;
+    margin: 64px 24px;
+    padding: 0 20px;
+  }
+  .wrap-menu::-webkit-scrollbar {
+    display: none; 
+  }
+  .wrap-menu-opt {
+      flex: 0 0 auto;
+      min-width: 100px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      background: #ffffff;
+      border: 2px solid black;
+      color: #000;
+      border-radius: 20px;
+      font-family: "SofiaPro";
+    }
+    .forthsection{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .wrap-menu-opt:first-child {
+      background-color: #e63946;
+      color: white;
+      border: none;
+    }
+    .wrapper-two{
+      display: none;
+    }
+    .fifthsection{
+      margin: 80px 24px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #fifth-text{
+      margin-top: 41px;
+    }
+    .app-budge{
+      display: flex;
+      flex-direction: row;
+      gap: 27px;
+      margin-top: 43px;
+    }
+    .chef4{
+      display: none;
+    }
+    .footer{
+      margin: 0 24px;
+      padding: 20px;
+    }
+    .descrip-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
 
 
 
@@ -476,11 +549,69 @@ body {
       margin: 0 75px;
       gap: 18px;
      }
-      .thirdsection{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+       .thirdsection{
+        display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+      }
+       .chef-image-circle {
+        display: none;
+      }
+      .chef2{
+       display: inline-block;
+       }
+       .options-section{
+        display: flex;
+        flex-direction: row;
+        gap: 115px;
+        margin-top: 23px;
+      }
+      .thirdsec-text{
+       padding-right: 111px;
+       margin-top: 50px;
+      }
+      .thirdsec-text h1 {
+        padding-right: 349px;
+      }
+      .aboutus-btn2 {
+        display: flex;
+        width: 131px;
+        height: 45px;
+        margin-top: 44px;
+        background: #e63946;
+        color: white;
+        border: none;
+        padding: 12px 0;
+        border-radius: 30px;
+        font-size: 18px;
+        font-family: "SofiaPro";
+        justify-content: center;
+        }
+        .aboutus-btn1{
+          display: none;
+        }
+        #forsec-text{
+          padding: 0 394px;
+        }
+        .wrap-menu{
+          gap: 30px;
+        }
+        .wrapper-two{
+          display: flex;
+          margin-top: 66px;
+        }
+        .fifthsection{
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: center;
+          align-items: center;
+        }
+        .chef3{
+          display: none;
+        }
+        .chef4{
+          display: block;
 
+        }
   }
-          
-}
